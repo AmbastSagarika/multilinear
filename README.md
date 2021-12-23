@@ -72,6 +72,7 @@ print ("Accuracy : ", accuracy_score(results_test, results_pred))
 
 
 $$$$code7
+
 from sklearn.preprocessing import StandardScaler 
 sc_x = StandardScaler() 
 hours_train = sc_x.fit_transform(hours_train)  
